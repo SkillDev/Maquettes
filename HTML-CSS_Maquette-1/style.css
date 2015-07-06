@@ -1,0 +1,396 @@
+
+/*__________________________________Reset_____________________________*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/*_______________________________Bloc du site entier_________________________*/
+
+#main {
+width: 951px;
+margin:auto;
+font-family: arial;
+}
+
+/*________________________________Haut de la page______________________________*/
+#header {
+ background-color:#000;
+ height:123px;
+ text-align:left;
+}
+
+.maj {
+text-transform: uppercase;
+}
+
+#header .maj {
+float:left;
+padding-top:15px;
+padding-left:20px;
+}
+
+#acceuil {
+float:right;
+padding-top: 90px;
+padding-right: 39px;
+}
+
+#header #acceuil a:hover {
+text-decoration:underline;
+}
+
+/*_________________________________menu_______________________________*/
+#menu {
+background-color:#1DA237;
+height:380px;
+}
+
+#menu img {
+float:right;
+padding-right:35px;
+}
+
+h1 {
+font-size:20px;
+padding-top:27px;
+padding-bottom:12px;
+padding-left:12px;
+width:263px;
+ }
+
+#menu ol li a {
+ font-size:16px;
+ text-transform: uppercase;
+ color:#000	;
+ display:block;
+ width:276px;
+ padding-top:20px;
+ padding-bottom:15px;
+}
+
+#menu ol li:hover {
+background-color:#000;
+background-image: url(images/fleche.jpg);
+background-repeat: no-repeat;
+background-position:15px;
+color:#FFF;
+}
+
+#menu ol li a:hover {
+color:#FFF;
+}
+
+a {
+cursor:pointer;
+text-decoration:none; 
+}
+
+li {
+text-indent: 55px;
+width:276px;
+}
+
+ol {
+float:left;
+padding-left:0px;
+padding-top:15px;
+width:276px;
+
+}
+
+/*____________________________Parti gauche du corps__________________________*/
+#des {
+float:left;
+margin-top:15px;
+height:633px;
+width:258px;
+padding:9px
+}
+
+#des h2 {
+border-bottom :2px solid ; 
+padding-bottom:5px;
+}
+
+#des p {
+font-size:13px;
+padding-left: 8px;
+}
+
+#des .suite a{
+font-size:11px;
+background-color:#1DA237;
+padding:6px;
+width: 69px;
+margin-left:173px;
+}
+
+#des .suite a:hover{
+background-color: #000;
+padding:6px;
+width: 69px;
+}
+#des #espace {
+margin-bottom:20px;
+}
+
+.fleche:before {
+content: url(images/triangle.gif);
+}
+
+#yo {
+font-size:1px;
+background-color:#1DA237;
+padding:6px;
+width:105px;
+margin-top:10px;
+margin-left:138px;
+margin-bottom:18px;
+}
+
+h3 {
+padding-top:18px;
+margin-top:21px;
+padding-bottom: 5px;
+border-top:2px solid;
+border-bottom:2px solid;
+}
+
+/*_____________________________google maps____________________________*/
+iframe {
+padding-top:10px;
+width:257px;
+height:200px;
+}
+/*____________________________couleurs________________________________*/
+.green {
+color:#1DA237;
+}
+
+.white {
+color:#FFF;
+}
+
+/*____________________________haut de corps_____________________________*/
+#situation {
+background-color:#C0C0C0;
+margin-top:15px;
+margin-left:275px;
+height:225px;
+width: 610px;
+padding:15px;
+}
+
+#situation img {
+float:left;
+}
+.gras {
+font-weight:bolder;
+}
+
+#situation h4 {
+padding-bottom:5px;
+font-size:15px;
+margin-left:340px;
+border-bottom:2px solid;
+}
+
+#situation p {
+padding-left:340px;
+font-size:12px;
+}
+
+#situation .suite a{
+font-size: 11px;
+background-color:#1DA237;
+padding:6px;
+width: 69px;
+float:right;
+margin-top:15px;
+}
+
+#situation .suite a:hover{
+background-color:#000;
+padding:6px;
+width: 69px;
+}
+
+.space {
+padding:10px
+}
+
+/*__________________________________offre decouverte_____________________________*/
+#offre {
+background-color:#C0C0C0;
+margin-top:15px;
+height:346px;
+width: 300px;
+padding:8px;
+float:left;
+}
+
+h5 {
+border-bottom:2px solid;
+padding-bottom:5px;
+}
+
+#offre #decouvertes {
+margin-top:20px;
+height:125px;
+border-top:1px solid #7F7F7F;
+width:308px;
+}
+
+
+#offre #decouvertes img {
+float:left;
+padding-top:10px;
+margin-right:5px;
+}
+
+#offre #decouvertes p {
+margin-top:15px;
+font-size:12px;
+}
+
+.savoir {
+padding-left:115px;
+}
+
+
+#offre #grande {
+height: 115px;
+border-top:1px solid #7F7F7F;
+border-bottom: 1px solid #7F7F7F;
+padding-bottom:10px;
+margin-bottom: 20px;
+}
+
+#offre #grande img {
+float:left;
+padding-top:15px;
+margin-right:5px;
+}
+
+#offre #grande p {
+margin-top: 15px;
+font-size: 12px;
+}
+
+#plus a{
+background-color:#1DA237;
+margin-left:218px;
+font-size: 12px;
+padding:6px;
+}
+
+/*______________________________________Offre speciales___________________________*/
+
+#speciales {
+background-color:#1DA237;
+margin-top:15px;
+margin-left:600px;
+height:346px;
+width: 300px;
+padding:8px;
+}
+
+h6 {
+border-bottom:2px solid;
+padding-bottom:5px;
+margin-bottom:25px;
+}
+
+
+.tableau {
+border:1px solid;
+border-left:none;
+border-right:none;
+padding:6px;
+font-size:14px;
+}
+
+.middle {
+padding-left:100px;
+}
+
+.middle2 {
+padding-left:39px;
+}
+.middle3 {
+padding-left:63px;
+}
+
+.prix {
+float:right;
+}
+
+.tableau:hover {
+background-color:#C0C0C0;
+}
+
+.tableau a :hover {
+	color:#1DA237;
+}
+
+
+/*_______________________________Bas de la page_________________________*/
+#footer {
+background-color:#000;
+height:40px;
+margin-top:15px;
+
+}
+
+#footer p {
+color:#676E6B;
+padding-top:10px;
+text-align:center;
+}
+
+#footer a {
+text-decoration: none;
+color:#676E6B;
+}
+#footer a:hover {
+	color:#FFF;
+}

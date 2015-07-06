@@ -1,0 +1,346 @@
+/*__________________________________Reset_____________________________*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/*_______________________________Bloc du site entier_________________________*/
+
+#main {
+width: 1660px;
+margin:auto;
+font-size:14px;
+font-family: arial,Helvetica,Verdana,sans-serif;
+
+}
+/*________________________________Haut de la page______________________________*/
+
+#header {
+background-image: url(images/grille.png);
+min-height:190px;
+}
+
+.gras{
+font-weight:bolder;
+}
+
+.maj {
+text-transform: uppercase;
+}
+
+#header h1 {
+float:left;	
+padding:40px 160px 0px 340px;
+}
+
+a {
+text-decoration: none;
+color:gray;
+
+}
+
+#header li {
+	padding:5px;
+}
+
+#header .liste {
+	margin-bottom:10px;
+	font-size: 13px;
+}
+
+#hotels,#Restaurants,#Services,#Activites,#Plus{
+float:left;
+padding:40px 15px ;
+text-indent: 10px;
+font-size:0.750em;
+
+}
+
+#hotels #hot  {
+border-bottom:5px solid orange;
+padding-bottom: 6px;
+}
+
+
+#Restaurants #res {
+border-bottom:5px solid yellow;
+padding-bottom: 6px;
+}
+
+#Services #ser {
+border-bottom:5px solid green;
+padding-bottom: 6px;
+}
+
+#Activites #act{
+border-bottom:5px solid blue;
+padding-bottom: 6px;
+}
+
+#Plus #pl {
+border-bottom:5px solid purple;
+padding-bottom: 6px;
+}
+/*___________________________________Youtube___________________________________*/
+
+#youtube {
+padding:50px 0px 50px;
+margin:20px 0px 20px;
+border-top:1px solid #E8E8E8;
+border-bottom:1px solid #E8E8E8;
+}
+
+object {
+margin-left:500px;
+}
+
+
+/*______________________________Service________________________________________*/
+#service p {
+	text-align: center;
+	background-image:  url(images/grille.png);
+	padding:50px 0px 50px 0px;
+	font-size:1.250em;
+	font-style: italic;
+
+}
+/*______________________________________couleur_________________________________*/
+.orange{
+color:#ffa500;
+}
+/*_______________________________________info_________________________________*/
+
+
+#golf {
+margin-left:300px;
+width: 230px;
+border:1px solid;
+padding:30px 0px 30px 10px;
+float:left;
+}
+#golf p {
+	padding-right:20px;
+}
+
+
+#info {
+padding:50px 0px 50px;
+margin:20px 0px 20px;
+border-top:1px solid #E8E8E8;
+border-bottom:1px solid #E8E8E8;
+min-height:400px;
+}
+
+#info p {
+	margin-top:10px;
+}
+
+
+.espace {
+line-height: 22px;
+}
+
+.publie {
+	font-size: 10px;
+	color:#C0C0C0;
+
+}
+
+#middle {
+	float:left;
+	margin:30px 40px 20px 30px; 
+	width:220px;
+}
+
+#Accrobranche {
+	float:left;
+}
+
+#fast {
+	float:left;
+	margin-top:30px;
+}
+
+h2 {
+	margin-bottom:10px;
+}
+
+.marg {
+	margin-top:12px;
+}
+
+#commentaire {
+	margin:30px 200px;
+	margin-right: 350px;
+}
+
+#commentaire img {
+	float:left;
+	margin:5px;
+	padding:7px;
+	border:1px solid #E8E8E8;
+}
+#plus {
+	margin-bottom: 20px;
+}
+/*___________________________________________________avant derniere_________________________________*/
+#avantdernier {
+	background-image:  url(images/grille.png);
+	padding:30px 0px 40px 0px;
+	min-height:170px;
+	}
+#contact {
+	margin-left:310px;
+	width:190px;
+	line-height: 20px;
+	float: left;
+}
+ .nous {
+ 	font-size: 15px;
+ 	margin-bottom:15px;
+ }
+.bas {
+	margin-bottom: 10px;
+}
+ #rue:before {
+ 	content: url(images/accueil_icone.png);
+vertical-align: top;
+}
+
+#yoo {
+	margin-left: 29px;
+}
+ #tel:before {
+ 	content: url(images/telephone_icone.png);
+ 	vertical-align: top;
+ }
+ #con:before {
+ 	content: url(images/mail_icone.png);
+ 	vertical-align: top;
+ }
+
+ #support:before {
+content:url(images/aide_icone.png);
+vertical-align:top;
+ }
+
+#avantdernier a {
+ 	text-decoration:underline;
+ }
+
+.repet {
+ 	margin-left:80px;
+	width:220px;
+	line-height: 20px;
+	float: left;
+ }
+59
+/*________________________footer______________________________________*/
+
+#footer {
+ padding-top:30px; 
+margin-top:20px;
+border-top:1px solid #E8E8E8;
+min-height: 50px;
+}
+
+
+
+#footer p {
+	margin-left: 300px;
+	padding-bottom: 5px;
+	font-size: 12px;
+
+}
+#sisi {
+	float: left;
+}
+
+
+.rss {
+background-image: url(images/rss.png);
+background-repeat: no-repeat;
+width: 40px;
+min-height: 40px;
+float: left;
+margin-left: 610px;
+}
+
+.mail {
+	background-image: url(images/email.png);
+}
+
+.twitter {
+background-image: url(images/twitter.png);
+}
+
+
+.face {
+background-image: url(images/facebook.png);
+}
+
+.path {
+background-image: url(images/pinterest.png);
+}
+
+.google {
+background-image: url(images/google.png);
+}
+
+.reglage {
+background-repeat: no-repeat;
+width: 40px;
+min-height: 40px;
+float: left;
+margin-left: 5px;
+
+}
+
+@media screen and (max-width:1659px) {
+	#main {
+		width: 100%;
+	}
+	#header {
+		width: 100%;
+	}
+	#youtube {
+		width: 100%;
+	}	 	
+}
